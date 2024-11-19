@@ -6,7 +6,7 @@ Material for the final project of the Passion in Action course Unleashing Pangen
 - You can work in group of max 2 people.
 - You must provide the source code of your project, with the results obtained and a document with comments on your implementation choices.
 - Also partial projects will be evaluated.
-\\
+
 Two folder are available:
 
 - GraphML for the Leonardo's project
