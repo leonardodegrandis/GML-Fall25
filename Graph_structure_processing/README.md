@@ -8,7 +8,7 @@ In particular the steps required are:
 - Creation of a CSR (out-edges) structure with characters in the nodes (composed of three arrays: IDs, adjacencies and offsets)
 - Outputs of two files coming from the two CSR structures as two new GFAs
 
-![Unification examples](Unification.png)
-
 Additional:
 - Create also the in-edges CSR, with two additional files
+
+![Unification examples](Unification.png)
