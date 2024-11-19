@@ -9,4 +9,4 @@ In particular the steps required are:
 - Outputs of two files coming from the two CSR structures as two new GFAs
 
 Additional:
-- Also th in-edges CSR, with two additional files
+- Create also the in-edges CSR, with two additional files
