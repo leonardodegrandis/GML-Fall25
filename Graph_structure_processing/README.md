@@ -7,6 +7,7 @@ In particular the steps required are:
 - Creation of a CSR (out-edges) structure of the unified graph with sequences in the nodes (composed of three arrays: IDs, adjacencies and offsets)
 - Creation of a CSR (out-edges) structure with characters in the nodes (composed of three arrays: IDs, adjacencies and offsets)
 - Outputs of two files coming from the two CSR structures as two new GFAs
+- Provide time and memory occupancy using /usr/bin/time library (simply add /usr/bin/time -f "Time: %e %E, MAX Memory: %M KB" in the command line before running the ./executable)
 
 Additional:
 - Create also the in-edges CSR, with two additional files
