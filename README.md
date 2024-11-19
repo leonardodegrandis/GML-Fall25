@@ -1,4 +1,4 @@
-![Graph](graph.png)
+![Graph](graph1.png)
 # UPA-Fall24
 Material for the final project of the Passion in Action course Unleashing Pangenome Analysis (UPA)
 
