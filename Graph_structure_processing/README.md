@@ -1,6 +1,6 @@
 # Implementation of CSR creation tool
 
-The project aims at creating a software in c/c++ that takes as input a genome graph in GFA format and outputs two different CSR structures.
+The project aims at creating a software in c/c++ that takes as input a genome graph in GFA format (use the ebola.gfa file provided) and outputs two different CSR structures.
 In particular the steps required are:
 - Reading a GFA file and saving all the Segments and Link in ad hoc structures.
 - Unify the adjacent Segments that could be see as a unique node as they represent a single possible path passing between those nodes (example in the picture).
