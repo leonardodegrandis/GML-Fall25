@@ -12,8 +12,8 @@ Two folder are available:
 - Graph_structure_processing for the Mirko's project
 
 ## Deadlines
-26 Nov 2024 : Communication via email to the tutor of the project selected (mirko.coggi@polimi.it leonardo.degrandis@polimi.it)
-10 Jan 2025 : Send an email with the deliverable
+- 26 Nov 2024 : Communication via email to the tutor of the project selected (mirko.coggi@polimi.it leonardo.degrandis@polimi.it)
+- 10 Jan 2025 : Send an email with the deliverable
 
 ## ATTENTION!!! 
 Please remember to not modify the current folder but create a fork and push modification only to your copy
