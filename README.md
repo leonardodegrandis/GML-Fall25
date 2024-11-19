@@ -1,3 +1,4 @@
+![Graph](image 34.png)
 # UPA-Fall24
 Material for the final project of the Passion in Action course Unleashing Pangenome Analysis (UPA)
 
