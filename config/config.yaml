@@ -1,0 +1,40 @@
+# Hydra config for training
+seed: 42
+
+
+data:
+  root: ./data
+  name: ESOL
+  batch_size: 64
+  num_workers: 4
+  pin_memory: true
+
+
+model:
+  gnn_type: GIN # options: GIN, GCN, GraphConv
+  hidden_dim: 128
+  num_layers: 5
+  dropout: 0.2
+
+
+optim:
+  lr: 1e-3
+  weight_decay: 1e-6
+  optimizer: adam
+
+
+trainer:
+  max_epochs: 30
+  gpus: 0 # set to 1 if you have a GPU
+  precision: 32
+  gradient_clip_val: 0.0
+
+
+callbacks:
+  early_stopping_patience: 20
+  checkpoint_top_k: 1
+
+
+logging:
+  csv_log_dir: logs/csv
+  name: esol_run

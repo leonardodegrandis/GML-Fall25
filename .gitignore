@@ -1,1 +1,6 @@
 /data
+.venv/
+GraphML/logs/
+GraphML/data/
+__pycache__/
+*.pyc
