@@ -38,3 +38,18 @@ callbacks:
 logging:
   csv_log_dir: logs/csv
   name: esol_run
+
+
+hydra:
+  run:
+    dir: ./outputs/single/${name}  
+  sweep:
+    dir: ./outputs/multiple/${name} 
+    subdir: run_${hydra.job.num}                       
+
+  sweeper:
+    params:
+      # encoder.dim: 32, 64, 128, 256, 384, 512
+      # encoder.readout: attentional, add_pool, mean_pool
+      # encoder.norm: layernorm, batchnorm
+      # encoder.cross_attention: None, standard, multihead
